@@ -11,6 +11,8 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
+    
 }
 .half-width{
     width: 50%;
@@ -39,4 +41,28 @@ section{
 .top-banner{
     background-image: url(picture/images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(picture/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    
+}
+.part-two{
+    width: 50%;
+    padding-right: 10%;
+    
+}
+.part-two img{
+    width: 80%;
+    padding-right: 5%;
+}
+.part-two p{
+    text-align: justify;
+}
+.part-two h1{
+    color: tomato;
+}
+.part-two h4{
+    color: coral;
 }
